@@ -2,7 +2,7 @@
 const sgMail = require('@sendgrid/mail'),
   showdown  = require('showdown'),
   fs = require('fs'),
-  request = require("request")
+  request = require("reque")
 
 // E-mail string templates
 const SUBJECT_TEMPLATE = "New $REPO$ release: $NAME$ ($VERSION$)",
